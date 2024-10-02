@@ -1,0 +1,109 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+  }
+  
+  .navigation li{
+    display: inline;
+    text-decoration: underline;
+    float: right;
+    margin: 10px;
+    padding-right: 10px;
+  }
+  
+  header {
+    height: 69px;
+    padding: 1px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    left: 0px;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+    background-color: black;
+  }
+  
+  .image-container {
+    float: left;
+    margin: 10px;
+  }
+  
+  .banner {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*167bxv5*_gcl_au*MzMxMDMxODMyLjE3MjcxMDA5NTA.*_ga*MzUwODgzMjY5MC4xNzI0MjUzNDI1*_ga_3LRZM6TM9L*MTcyNzc1NTIwMi45Ni4xLjE3Mjc3NTUzNjYuNTMuMC4w");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    width: 1200px;
+    display: block;
+    align-content: center;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  
+  .banner h2, h4{
+    background-color: black;
+    padding: 12px 12px;
+    margin: 0 auto;
+    border: 1px solid black;
+    max-width: 1200px;
+    
+  }
+  
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .container h2{
+  padding-top: 90px;
+  }
+  
+  .container figure {
+    display: inline-block;
+    align-content: center;
+  }
+  
+  figcaption {
+    margin: 10px;
+  }
+  
+  .locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*7dj7pm*_gcl_au*MzMxMDMxODMyLjE3MjcxMDA5NTA.*_ga*MzUwODgzMjY5MC4xNzI0MjUzNDI1*_ga_3LRZM6TM9L*MTcyNzgwMDY5OC45Mi4xLjE3Mjc4MDE1MjAuNjAuMC4w");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    width: 1200px;
+    display: block;
+    align-content: center;
+    margin: auto;
+  }
+  
+  .locations li{
+    display: inline-block;
+    background-color: black;
+    opacity: 1;
+    height: 300px;
+    width: 300px;
+    line-height: 1.2;
+  }
+  
+  .cozy {
+    height: 200px;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  footer {
+    float: left;
+  }
